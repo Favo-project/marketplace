@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
  */
-
-
 * {
     padding: 0;
     margin: 0;
@@ -13,7 +11,7 @@
 }
 
 .container {
-    width: 1300px;
+    width: 1400px;
     margin: auto;
 }
 
@@ -47,4 +45,10 @@
 
 .swiper-pagination-bullet-active {
     background-color: var(--orange) !important;
+}
+
+
+@font-face {
+    font-family: helvetica;
+    src: url("../../public/fonts/helvetica_n7.39bee04bd277a9c4e94e2fd42d53f4e3c0afb8a5.woff2");
 }

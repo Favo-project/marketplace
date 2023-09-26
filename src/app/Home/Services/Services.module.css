@@ -6,6 +6,22 @@
 }
 
 .Services .Service {
-    width: 30%;
+    width: 32.5%;
+    background-color: #e5e6e8;
     text-align: center;
+    border-radius: .25rem;
+    padding: 20px;
+}
+
+.Services .Service p {
+    font-family: helvetica;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.Services .Service img {
+    width: 100px;
+    height:65px;
+    max-width: 50%;
+    object-fit: contain;
 }
