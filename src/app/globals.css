@@ -1,0 +1,50 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+ */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1300px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+:root {
+    --white: #fff;
+    --orange: #e20e0e;
+    --black: #000;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 45px !important;
+    height: 45px !important;
+    background-color: rgb(255 58 58 / 50%);
+    border-radius: 50%;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-next:after {
+    font-size: 25px !important;
+    color: var(--white);
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--orange) !important;
+}
