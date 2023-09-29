@@ -1,7 +1,9 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar/Navbar";
 import SwiperHeader from "./Swiper/SwiperHeader";
 import Services from "./Services/Services";
-import BestShopping from "./BestShopping/bestShopping";
+import BestShirts from "./BestShirts/bestShirts";
+import BestHoodies from "./BestHoodies/bestHoodies";
+import Reviews from "../Reviews/Reviews";
 export default function Example() {
   return (
     <div className="bg-white">
@@ -10,7 +12,9 @@ export default function Example() {
         <div className="container">
           <SwiperHeader />
           <Services />
-          <BestShopping />
+          <BestShirts />
+          <BestHoodies />
+          <Reviews />
         </div>
       </header>
 

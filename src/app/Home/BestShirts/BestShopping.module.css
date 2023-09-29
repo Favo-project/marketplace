@@ -1,0 +1,86 @@
+.BestShopping {
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.BestShopping h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.BestShopping .shirt {
+    width: 23%;
+    background-color: #efefef;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+}
+
+.BestShopping .shirt h3 {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #4e4681;
+}
+
+
+.best_shirts {
+    justify-content: space-between;
+}
+
+.BestShopping .shirt .shirts_photo {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+
+.BestShopping .shirt .shirts_photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: .3s;
+}
+
+.allShirts {
+    display: table;
+    margin: 40px auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8e8f0;
+    border-radius: 30px;
+    padding: 20px 30px;
+    font-weight: 600;
+    color: #4e4681;
+}
+
+.allShirts svg {
+    transition: .3s;
+    transform: translateX(5px) translateY(1.5px);
+}
+
+.allShirts:hover svg {
+    transform: translateX(10px) translateY(1.5px);
+}
+
+.like {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    opacity: .4;
+    transition: .3s;
+    z-index: 3;
+}
+
+.BestShopping .shirt:hover .like {
+    opacity: 1;
+}
+
+
+.BestShopping .shirt:hover .shirts_photo img {
+    transform: scale(1.05);
+}
