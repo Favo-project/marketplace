@@ -1,0 +1,20 @@
+.Product {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.Product .ProductLeft,
+.Product .ProductRight {
+    width: 49%;
+}
+
+.Product .ProductLeft {
+    display: flex;
+    justify-content: center;
+}
+
+.Product .ProductLeft img {
+    width: auto;
+    height: 350px;
+}

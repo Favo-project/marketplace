@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import classes from "./Navbar.module.css";
+import Link from "next/link";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -22,12 +23,12 @@ export default function Navbar() {
         <div className="container">
           <div className={`row ${classes.nav_row}`}>
             <div className={classes.iconNavbar}>
-              <a href="#">
+              <Link href="/">
                 <img
                   src="https://cdn.shopify.com/s/files/1/0254/2275/7985/files/MysteryStickerPack_x50.jpg?v=1684324277"
                   alt=""
                 />
-              </a>
+              </Link>
             </div>
             <div className={classes.nav_center}>
               <div className={classes.navbar_input}>

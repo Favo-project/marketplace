@@ -1,0 +1,49 @@
+ .shirt {
+     width: 23%;
+     background-color: #efefef;
+     border-radius: 10px;
+     position: relative;
+     padding: 20px;
+     margin-bottom: 30px;
+ }
+
+ .shirt h3 {
+     margin: 10px 0;
+     text-transform: uppercase;
+     font-size: 15px;
+     color: #4e4681;
+ }
+
+
+ .shirt .shirts_photo {
+     width: 100%;
+     height: 350px;
+     overflow: hidden;
+ }
+
+
+ .shirt .shirts_photo img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+     transition: .3s;
+ }
+
+
+ .like {
+     position: absolute;
+     top: 20px;
+     right: 20px;
+     opacity: .4;
+     transition: .3s;
+     z-index: 3;
+ }
+
+ .shirt:hover .like {
+     opacity: 1;
+ }
+
+
+ .shirt:hover .shirts_photo img {
+     transform: scale(1.05);
+ }
