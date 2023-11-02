@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+  --exo: 'Exo', sans-serif;
+  --inter: 'Inter', sans-serif;
+  --blue: #2B79FF;
+  --grey: #716E6E;
+  --orange: #FF7405;
+  --white: #fff;
+  --black: #000;
+}
+
+body {
+  background: #EBEBEB;
+}
+
+.container {
+  width: 1300px;
+  margin: auto;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+}
