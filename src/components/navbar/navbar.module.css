@@ -2,9 +2,11 @@
     background: var(--blue);
     padding: 8px 0;
 }
-.navbar_top .row{
+
+.navbar_top .row {
     padding: 0 50px;
 }
+
 .row {
     justify-content: space-between;
     align-items: center;
@@ -93,4 +95,19 @@
 .navbarItem1 svg {
     width: 25px;
     height: 25px;
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.categories li a {
+    font-family: var(--exo);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 47px;
+    color: var(--grey);
 }
