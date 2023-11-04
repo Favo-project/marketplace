@@ -1,5 +1,13 @@
+import SliderHeader from "@/components/headerSlider/slider";
+import MostPopular from "@/components/mostPopular/mostPopular";
+
 export default function Home() {
   return (
-    <h1>Hello World</h1>
-  )
+    <div className="home">
+      <div className="container">
+        <SliderHeader />
+        <MostPopular />
+      </div>
+    </div>
+  );
 }
