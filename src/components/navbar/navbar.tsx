@@ -25,7 +25,7 @@ export default function Navbar() {
         <div className="container">
           <div className={`${classes.nav_top} row`}>
             <div className={classes.navbarItem1}>
-              <a href="#">
+              <a href="/">
                 <img src="/assets/img/logo.png" alt="" />
               </a>
             </div>
@@ -48,7 +48,7 @@ export default function Navbar() {
             </div>
             <ul>
               <li>
-                <a href="#">
+                <a href="/login">
                   <svg
                     width="27"
                     height="28"
@@ -65,7 +65,7 @@ export default function Navbar() {
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="/like">
                   <svg
                     width="27"
                     height="28"
@@ -82,7 +82,7 @@ export default function Navbar() {
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="/cart">
                   <svg
                     width="27"
                     height="28"

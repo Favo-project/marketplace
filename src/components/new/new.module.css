@@ -1,10 +1,10 @@
 .products {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-}
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
 
-.mostPopular h3 {
+.newProducts h3 {
   color: var(--grey);
   font-family: var(--exo);
   font-size: 27px;

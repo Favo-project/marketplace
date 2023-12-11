@@ -1,0 +1,15 @@
+.btn_more {
+  margin: auto;
+  margin-top: 23px;
+  margin-bottom: 40px;
+}
+
+.btn_more a {
+  border-radius: 50px;
+  background: var(--1, #3f69bf);
+  padding: 8px 25px;
+  color: #fff;
+  font-family: var(--exo);
+  font-size: 20px;
+  font-weight: 600;
+}

@@ -1,9 +1,9 @@
 import React from "react";
-import classes from "./mostPopular.module.css";
+import classes from "./new.module.css";
 import Card from "../card/card";
 import MoreBtn from "../btnMore/btn";
 
-export default function MostPopular() {
+export default function New() {
   const products = [
     {
       id: 1,
@@ -86,8 +86,8 @@ export default function MostPopular() {
   ];
 
   return (
-    <div className={classes.mostPopular}>
-      <h3>Самые популярные одежды</h3>
+    <div className={classes.newProducts}>
+      <h3>Новинки</h3>
       <div className={classes.products}>
         {products.map((item, index) => (
           <Card product={item} key={index} />
