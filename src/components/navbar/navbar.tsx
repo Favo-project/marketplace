@@ -1,7 +1,11 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import classes from "./navbar.module.css";
+import Login from "@/app/login/page";
 
 export default function Navbar() {
+  const [login, setLogin] = useState(false);
+
   return (
     <>
       <div className={classes.navbar_top}>
@@ -48,7 +52,13 @@ export default function Navbar() {
             </div>
             <ul>
               <li>
-                <a href="/login">
+                <a
+                  href="#"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setLogin(true);
+                  }}
+                >
                   <svg
                     width="27"
                     height="28"
@@ -113,6 +123,8 @@ export default function Navbar() {
           </ul>
         </div>
       </nav>
+
+      {login && <Login setLogin={setLogin} login={login} />}
     </>
   );
 }

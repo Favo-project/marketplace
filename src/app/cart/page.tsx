@@ -125,7 +125,7 @@ export default function Cart() {
                   </div>
                   <div className={styles.cart_right}>
                     <h4 className={styles.price}>{item.price} сум</h4>
-                    <h5 className={styles.old_price}>{item.oldPrice}  сум</h5>
+                    <h5 className={styles.old_price}>{item.oldPrice} сум</h5>
                     <span>
                       <img src="/assets/img/delete.png" alt="" /> Удалить
                     </span>
