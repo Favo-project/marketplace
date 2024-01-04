@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import classes from "./login.module.css";
 import MoreBtn from "../btnMore/btn";
