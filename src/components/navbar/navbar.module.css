@@ -1,0 +1,113 @@
+.navbar_top {
+    background: var(--blue);
+    padding: 8px 0;
+}
+
+.navbar_top .row {
+    padding: 0 50px;
+}
+
+.row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_top .left p {
+    color: var(--white);
+    font-family: var(--exo);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.navbar_top .right button {
+    color: var(--white);
+    font-family: var(--exo);
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 20px;
+    border-radius: 50px;
+    background: var(--orange);
+}
+
+.navbar_top .right select {
+    background: transparent;
+    border: none;
+    color: var(--white);
+    outline: none;
+    margin-left: 20px;
+    font-family: var(--inter);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav_top {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nav_top ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav_top ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_top ul li a span {
+    color: var(--grey);
+    font-family: var(--exo);
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.navbarItem1 input {
+    width: 522px;
+    outline: none;
+    height: 40px;
+    background: var(--white);
+    border: none;
+    color: var(--grey);
+    font-family: var(--exo);
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.navbarItem1 button {
+    width: 50px;
+    height: 40px;
+    background: var(--blue);
+}
+
+.navbarItem1 {
+    align-items: center;
+    display: flex;
+}
+
+.navbarItem1 svg {
+    width: 25px;
+    height: 25px;
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.categories li a {
+    font-family: var(--exo);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 47px;
+    color: var(--grey);
+}

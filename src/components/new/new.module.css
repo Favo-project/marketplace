@@ -1,0 +1,14 @@
+.products {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+.newProducts h3 {
+  color: var(--grey);
+  font-family: var(--exo);
+  font-size: 27px;
+  font-weight: 600;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
